@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top:0 ;
+    overflow-x: hidden;
+}
+.first{
+    padding-top: 3rem;
+    width: 100%;
+    height: 120vh;
+    background-color:rgb(253, 253, 224);
+
+}
+
+.navbar{
+    width: 100%;
+    height: 6rem;
+    top: 0;
+   background-color: #fff;
+}
+
+.navbar-brand{
+  margin-left:1.5rem;
+}
+.navbar  a{
+  
+    font-size: 1rem;
+    text-decoration: none;  
+    color: black;
+    margin: 0 2rem;   
+    padding: 0; 
+    cursor: pointer;
+   
+}
+.navbar .Green{
+    cursor: pointer;
+    width: 20%;    
+    padding: .5rem .8rem;
+ 
+    background-color: rgb(54, 172, 79);
+    color: #fff;
+    border-radius: .4rem .4rem .4rem .4rem;
+}
+.navbar.scrolled{
+    background-color: #fff;
+    transition: 1s;
+}
+.info{
+    margin-top: 10rem;
+}
+.info h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:3.5rem;
+    font-weight: bold;
+}
+.info ,li ,p{
+    font-size: 1.2rem;
+}
+.green{
+    cursor: pointer;
+    background-color: rgb(9, 61, 9);
+    border: 2px solid  transparent;
+    border-radius: 0.3rem;
+    color: #fff;
+}
+.green:hover{
+    color: white;
+}
+
+.big{
+    
+    margin:0 auto;
+    
+    position: relative;
+   top:12rem;
+    bottom:0;
+    width:80%;
+    height: 70vh;   
+    border: 2rem solid purple ;
+    opacity: 10;
+    box-shadow: 1em 1em  rgba(221, 160, 221, 0.151);
+    border-radius: 50%;
+    background-color: plum;
+
+}
+.small{
+
+    place-content: center;
+    position: relative;
+    bottom: 11rem;
+    margin-top: 0;
+    
+    
+    
+}
+.container-one{
+    width:100%;
+    height: 120vh;
+    margin-top: 5rem;
+}
+.card1{ 
+     width:45%;
+     height: 320px;
+     font-size: 2rem;
+     float: left;
+    display: flex;
+    border-radius: 0.4rem;
+    background-color: rgb(201, 250, 201);
+}
+
+.card2{ 
+    width:45%;
+    height: 320px;
+    font-size: 2rem;
+    float: left;
+   display: flex;
+   border-radius: 0.4rem;
+   background-color: rgba(137, 137, 252, 0.836);
+}
+
+.card3{ 
+    width:45%;
+    height: 320px;
+    font-size: 2rem;
+    float: left;
+   display: flex;
+   border-radius: 0.4rem;
+   background-color: blanchedalmond;
+}
+.card1 p, .card2 p, .card3 p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.drawn{
+    width:100%;
+    height:50%;
+
+}
+.drawn a{
+    text-decoration:none;
+    color: black;
+    text-shadow: none;
+}
+.drawn  img{
+    display: inline-block;
+    width: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.drawn .base{
+    width: 11rem;
+    height:7rem;
+    position: relative;
+    bottom:.8rem;
+    right:1.4rem;
+    border-radius: 0.5rem 0 0.5rem 0;
+   
+
+}
+.box{
+    width:10.2rem ;
+    height: 6.7rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 0.5rem 0;
+    position: absolute;
+    bottom:0;
+    right:0;
+
+}
+.second{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(229, 240, 240);
+}
+.second .med{
+    position: relative;
+    top:5rem;
+    left:12rem;
+}
+
+.third{
+    min-width: 100%;
+    background-color: rgba(253, 247, 251, 0.87);
+}
+.third-bg{ 
+    min-height: 80vh;
+    padding:5% 0 0 2%;
+    background-color: rgba(253, 247, 251, 0.87);
+    overflow-x: auto;
+}
+ .card-main{
+    width: 100%;
+    height: 45%;
+    background-color: rgba(253, 247, 251, 0.87);
+}
+
+/* .card{
+    margin: 5rem 3rem;
+    
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    
+}  */
+ .wrapper{
+    cursor: pointer;
+    min-width: 30vw;
+    min-height: 30vh;
+    border: 2px solid transparent;
+    display: flex;
+    background-color: rgba(253, 247, 251, 0.87);
+    overflow-y: hidden;
+    overflow-x: auto;
+    
+}
+.WAP{
+    width:70vw;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.wrapper .item{
+    min-width:30vw;
+    height: 30vh;
+    place-content: center;
+    background-color: white;
+    border-radius: .5rem;
+    border-color: #fff;
+} 
+
+.item img{
+    width: 5rem;
+    height: 5rem;
+    margin:1rem 0 0 1rem;
+    border-radius: 50%;
+
+}
+
+.card-body h6{
+    position: relative;
+    bottom:5rem;
+    left:6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .8rem;
+ 
+}
+.card-body span{
+    color: rgb(57, 231, 173);
+}
+.card-body p{
+    padding-top: 0;
+    font-size: 1rem;
+    position: relative;
+    bottom: 3.5rem;
+}
+.fourth{
+    margin-top: 5rem;
+    width:100%;
+    height: 80vh;
+}
+.fourth input{
+    width: 15rem;
+    height: 3rem;
+    display: block;
+}
+
+.line{
+    width: 90%;
+    margin: 1rem;
+    border-bottom: .1rem solid gainsboro ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    justify-content: end;
+}
+span i{
+    display:inline-block;
+    text-align: center;
+}
+
+.rectangle{
+    margin: 10rem 1.5rem;
+    width:100%;
+    height: 57vh;
+    border-radius: .6rem .6rem .6rem .6rem;
+    background-color: rgb(107, 214, 161);
+    color:#000;
+}
+.tan{
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+}
+
+.rectangle .PHONE{
+    position: relative;
+    bottom:10rem;
+    left: 4rem;
+}
+.FIRST{
+    margin-top: 10rem;
+    width: 100%;
+    height:150vh;
+}
+.FIRST .sec{
+    width: 100%;
+    background-color: #fff;   
+ 
+}
+
+.sec .container{
+    margin-top: 5rem;
+    width: 100%;
+    background-color: rgb(253, 254, 255);
+    border: 2rem solid transparent;
+    border-radius: 2rem 2rem 2rem 2rem ;
+}
+.SECOND{
+    width: 100%;
+  
+}
+
+ .SECOND #trr{
+    margin-top: 5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+ .txt{
+    margin-bottom: 6rem;
+    font-size: 1rem;
+    font-weight: 500;
+} 
+ .use{
+    margin:2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Helvetica;
+}
+ .SECOND .light{
+    width: 100%;  
+    background-color: antiquewhite;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+ .SECOND .dark{
+    width: 100%;
+    background-color: rgba(127, 255, 223, 0.678);
+    border-radius: 1rem 1rem 1rem 1rem;
+    
+}
+ .dark .Boxx{
+    width: 11rem;
+    height: 3rem;
+    padding: .2rem;
+    border-radius: .2rem .2rem .2rem.2rem;
+    background-color: rgba(28, 146, 28, 0.699);
+    color: white;
+    position: relative;
+    bottom:5rem;
+    left:15rem;
+}
+ .phone{
+    margin: 0  0 0 4rem ;
+     bottom:-10rem;
+    left:3rem;
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+    border: 1rem black solid;
+    border-radius: 1.5rem 1.5rem 0 0;
+    border-bottom: none; 
+}
+.THIRD{
+    width:100%;
+}
+
+.THIRD .four{
+    width: 100%;
+    background-color: rgb(217, 237, 245);
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.THIRD .five{
+    width: 100%;
+    background-color: rgb(230, 201, 253);
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.FOURTH .six{
+    width: 100%;
+    background-color: rgb(217, 237, 245);
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.FOURTH .seven{
+    width: 100%;
+    background-color: rgb(243, 250, 249);
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.FIFTH .container{
+    width: 100%;
+}
+.FIFTH .eight{
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.FIFTH .nine{
+    width: 100%;
+    background-color: rgba(127, 255, 223, 0.678);
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.nine img{
+    margin-top: 25rem;
+}
+
+
+@media only screen and (max-width: 641px) {
+    #big{
+    
+        margin:0 auto;
+        
+        position: relative;
+       top:12rem;
+        bottom:0;
+        width:80%;
+        height: 70vh;
+    
+        border: 2rem solid purple ;
+        opacity: 10;
+        box-shadow: 1em 1em  rgba(221, 160, 221, 0.151);
+        border-radius: 50%;
+        background-color: plum;
+    
+    }
+} 
